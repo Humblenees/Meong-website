@@ -1,31 +1,55 @@
-
 .view {
-   background: url("https://cdn.discordapp.com/attachments/563354996490371086/651673994587799552/discord_dark.png")no-repeat center center; 
+  background: url("https://wallpaperaccess.com/full/314771.jpg") no-repeat center center;
+  background-color: #2e2e2e;
+  background-size: cover;
+}
+.modal-body {
     background-color: #2E2E2E;
-    background-size: cover;
+    color: #ffff;
+    border-radius: 0 !important;
 }
-
-.navbar {
-    background-color: transparent;
-}
-
-.top-nav-collapse {
+.modal-footer {
     background-color: #212121;
+        color: #ffff;
+    border-radius: 0 !important;
 }
-
-main {
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
   background-color: #212121;
 }
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #212121;
-    }
+main {
+  background-color: #2e2e2e;
 }
-
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #212121;
+  }
+}
 html,
 body,
 header,
 .view {
   height: 100%;
+}
+
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #212121;
+border-radius: 10px; 
+border-radius: 0 !important;
+}
+
+::-webkit-scrollbar {
+width: 12px;
+background-color: rgba(3, 169, 244, 0.7);
+border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: rgba(3, 169, 244, 0.7);
+border-radius: 0 !important;
 }
