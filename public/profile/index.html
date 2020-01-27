@@ -13,12 +13,12 @@
     <meta name="author" content="Meong#8982" />
     <meta content="#212121" name="theme-color" />
     <meta content="#212121" name="msapplication-navbutton-color" />
-    <meta property="og:url" content="https://meong.glitch.me/profile/" />
+    <meta property="og:url" content="https://eenthlh.xyz/" />
     <meta
       property="og:image"
       content="https://cdn.discordapp.com/attachments/603492777216573451/661190499289399297/logo.png"
     />
-    <meta property="og:description" content="My Profile." />
+    <meta property="og:description" content="My Website." />
     <meta property="og:footer" content="•" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -33,41 +33,29 @@
       href="https://cdn.discordapp.com/attachments/603492777216573451/661190499289399297/logo.png"
     />
 
-    <link rel="stylesheet" href="/css/meong.css" />
+    <link rel="stylesheet" href="/css/custom/style.css" />
 
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css"
-      rel="stylesheet"
-    />
+    <link href="/css/tw/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/mdb/mdb.min.css" rel="stylesheet" />
 
     <!-- SCRIPT OR JS -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"
-    ></script>
-    <script type="text/javascript" src="/js/custom.js"></script>
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+    <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/popper/popper.min.js"></script>
+    <script type="text/javascript" src="/js/tw/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/mdb/mdb.min.js"></script>
 
-    <!-- DAFTAR PROJECT -->
+    <!-- PROFILE -->
   </head>
   <body>
     <header>
@@ -75,7 +63,14 @@
         class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar"
       >
         <div class="container">
-          <a class="navbar-brand" href="/"> <b>Meong</b></a>
+          <a class="navbar-brand" href="/">
+          <img
+              src="https://cdn.discordapp.com/attachments/603492777216573451/661190499289399297/logo.png"
+              alt="logo.png"
+              class="rounded"
+              width="32px"
+            />
+           <b><strong>Meong</strong></b></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -90,7 +85,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a href="https://meong.glitch.me/" target="" class="nav-link"
+                <a href="/" target="" class="nav-link"
                   ><i class="fas fa-home"></i> Home</a
                 >
               </li>
@@ -99,26 +94,27 @@
         </div>
       </nav>
 
-      <main style="background-color: #2e2e2e;">
+      <main>
         <br /><br /><br /><br />
         <div class="container white-text wow fadeInUp">
           <h3 class="text-center h3-responsive font-weight-bold">
-            My Profile
+            My Profile:
           </h3>
 
           <!-- MAIN -->
+
           <section class="team-section  my-5">
             <div class="row">
               <div class="col-sm-6">
                 <div class="card bg-dark">
                   <div class="card-body">
                     <img
-                src="https://cdn.discordapp.com/attachments/603492777216573451/661190499289399297/logo.png"
-                width="170px"
-                alt="logo.png"
-                href="https://meong.glitch.me/"
-                class="rounded mx-auto d-block"
-              />
+                      src="https://cdn.discordapp.com/attachments/603492777216573451/661190499289399297/logo.png"
+                      width="170px"
+                      alt="logo.png"
+                      href="https://eenthlh.xyz/"
+                      class="rounded mx-auto d-block"
+                    />
                     <h6 class="card-title">Full Name:</h6>
                     <p class="card-text">
                       Rizky Fauzan Hanif
@@ -137,7 +133,7 @@
                     </p>
                     <h6 class="card-title">Skill:</h6>
                     <p class="card-text">
-                       Can code a simple website and discord bot.
+                      Can code a simple website and discord bot.
                     </p>
                     <h6 class="card-title">Gender:</h6>
                     <p class="card-text">
@@ -153,8 +149,9 @@
             </div>
           </section>
         </div>
-      <br /><br />
-    </main>
+
+        <br /><br />
+      </main>
 
       <!-- SOSMED BAWAH -->
       <footer class="page-footer font-small elegant-color-dark">
