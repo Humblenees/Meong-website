@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="propeller" content="da3fdafeb3a0f1ea42befd9f24edd1d3" />
+    <title>Kehay</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Kehay is a multipurpose bot with many of the 'standard' commands, but what makes her truly unique are her one-of-a-kind features that you never even knew you needed."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Kehay" />
+    <meta property="og:url" content="https://www.kehay.com" />
+    <meta
+      property="og:description"
+      content="Kehay is a multipurpose bot with many of the 'standard' commands, but what makes her truly unique are her one-of-a-kind features that you never even knew you needed."
+    />
+    <meta name="msapplication-TileColor" content="#2c75ff" />
+    <meta
+      name="keywords"
+      content="discord, guild, server, HaileyBot, bot, network, cheesits, global discord chat, global chat, hub"
+    />
+    <meta property="og:type" content="object" />
+    <meta
+      property="og:image"
+      content="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="kehay" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+    />
+    <meta name="theme-color" content="#2c75ff" />
+    <link
+      rel="shortcut icon"
+      href="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+    />
+
+    <link href="https://kehay.glitch.me/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://kehay.glitch.me/css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="https://kehay.glitch.me/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://kehay.glitch.me/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://kehay.glitch.me/css/pageclip.css" media="screen" />
+    <link href="https://kehay.glitch.me/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://kehay.glitch.me/js/mobileCheck.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      const crate = new Crate({
+        server: "670416633994674187",
+        channel: "675318893241303040",
+        shard: "https://e.widgetbot.io",
+        css: `
+          .root .embed {
+            width: ${window.mobilecheck() ? "100%" : "75%"};
+          }
+        `,
+        notifications: true,
+        indicator: true
+      }); -->
+      crate.notify({
+        content: "Need help? Join the support server to receive assistance!",
+        timeout: 10000,
+        avatar: "images/cheesits456.gif"
+      })
+    </script>
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo -->
+        <div>
+          <a class="logo" href="#">Ke<span class="text-primary">hay</span></a>
+        </div>
+
+        <!-- Invite Buttons -->
+        <div class="buy-button hide-mobile">
+          <a
+            href="https://discordapp.com/api/oauth2/authorize?client_id=654641312288604161&permissions=-1&scope=bot"
+            target="_blank"
+            class="btn btn-primary"
+            >Add Bot</a
+          >
+        </div>
+        <div class="buy-button hide-mobile" style="padding-right: 0.25em">
+          <a
+            href="https://invite.gg/tku5wrc"
+            target="_blank"
+            class="btn btn-outline-primary"
+            >Join Server</a
+          >
+        </div>
+
+        <!-- Mobile Tray Toggle -->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <a class="navbar-toggle">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div id="navigation">
+          <ul class="navigation-menu">
+            <!-- Mobile Invites -->
+            <li class="show-mobile buy-button">
+              <span
+                ><a
+                  href="https://discordapp.com/api/oauth2/authorize?client_id=654641312288604161&permissions=-1&scope=bot"
+                  target="_blank"
+                  class="btn btn-block btn-primary"
+                  >Add Bot</a
+                ></span
+              >
+            </li>
+            <li class="show-mobile buy-button">
+              <span
+                ><a
+                  href="https://invite.gg/tku5wrc"
+                  target="_blank"
+                  class="btn btn-block btn-outline-primary"
+                  >Join Server</a
+                ></span
+              >
+              <hr style="opacity: 25%; margin-top: 10px; margin-bottom: 10px" />
+            </li>
+
+            <!-- Nav Row 1 -->
+            <li><a class="text-primary">Home</a></li>
+
+            <!-- Nav Row 2 -->
+            <li class="has-submenu">
+              <a>Bot</a><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li>
+                  <a href=""
+                    >Shop
+                    <span
+                      class="badge badge-success nav-menu-right nav-menu-badge"
+                      >INCOMING</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="https://instagram.com/_pxirwan375_">Instagram</a>
+                </li>
+                <li>
+                  <a href=""
+                    >Commands
+                    <span
+                      class="badge badge-success nav-menu-right nav-menu-badge"
+                      >INCOMING</span
+                    ></a
+                  >
+                </li>
+                <li><a href="#features">Feature</a></li>
+              </ul>
+            </li>
+
+            <!-- Nav Row 3 -->
+            <!--           <li class="has-submenu">
+            <a>Docs</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li><a href="https://docs.haileybot.com/">Overview</a></li>
+              <li><a href="https://faq.haileybot.com">Frequently Asked</a></li>
+              <hr style="opacity: 25%; margin: 20px; margin-top: 10px; margin-bottom: 10px">
+              <li><a href="https://license.haileybot.com" target="_blank">License<span class="mdi mdi-open-in-new rem-1 nav-menu-right nav-menu-icon"></span></a></li>
+              <li><a href="https://eula.haileybot.com" target="_blank">EULA<span class="mdi mdi-open-in-new rem-1 nav-menu-right nav-menu-icon"></span></a></li>
+            </ul>
+          </li>
+ -->
+            <!-- Nav Row 4 -->
+            <!--           <li class="has-submenu">
+            <a>Vote</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li><a href="https://botlist.space/bot/423637161632464906/upvote" target="_blank">botlist.space</a></li>
+              <li><a href="https://bots.ondiscord.xyz/bots/423637161632464906?vote" target="_blank">bots.ondiscord.xyz</a></li>
+              <li><a href="https://botsfordiscord.com/bot/423637161632464906/vote" target="_blank">botsfordiscord.com</a></li>
+              <li><a href="https://top.gg/bot/423637161632464906/vote" target="_blank">top.gg</a></li>
+            </ul>
+          </li> -->
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Jumbotron -->
+    <section class="bg-half-170" id="home">
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <!-- Coloumn 1 -->
+              <div class="col-lg-6 col-md-7">
+                <div class="title-heading mt-4">
+                  <h1 class="heading mb-3">
+                    Manage your server with
+                    <span class="text-primary">Kehay</span>
+                  </h1>
+                  <p class="para-desc text-muted">
+                    With nearly every feature you can think of, as well as
+                    dedicated staff and an active support team, Kehay is the
+                    perfect addition to any Discord server.
+                    <span class="text-primary"
+                      >Scroll down to learn more . . .</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <!-- Column 2 -->
+              <div
+                class="col-lg-6 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0 hide-mobile"
+              >
+                <img
+                  src="https://imagizer.imageshack.com/v2/150x100q90/924/Hv07Qh.png"
+                  width="85%"
+                  class="img-fluid mx-auto d-block"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Background Design Image -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="home-shape-bottom">
+                <img
+                  src="images/shapes/round-light.png"
+                  alt=""
+                  class="img-fluid mx-auto d-block"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <!-- Title and Description -->
+            <div class="section-title mb-60">
+              <h4 class="main-title mb-4">Statistics</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                The below statistics are fetched live from a custom API, and are
+                here to demonstrate the scale of this project.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Set up 2 columns -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-8">
+            <div class="row">
+              <!-- Stat Column 1 -->
+              <div class="col-md-6 col-12">
+                <div class="features p-1 pt-4 pb-4">
+                  <i
+                    class="mdi mdi-account icon text-center rounded-pill text-primary mr-3 mt-2 float-left"
+                  ></i>
+                  <div class="content d-block overflow-hidden">
+                    <h4 class="title">
+                      <span id="stats-members"></span> Members
+                    </h4>
+                    <p class="text-muted para mb-0">
+                      combined total of every user who shares a server with
+                      Kehay
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stat Column 2 -->
+              <div class="col-md-6 col-12">
+                <div class="features p-1 pt-4 pb-4">
+                  <i
+                    class="mdi mdi-server icon text-center rounded-pill text-primary mr-3 mt-2 float-left"
+                  ></i>
+                  <div class="content d-block overflow-hidden">
+                    <h4 class="title">
+                      <span id="stats-servers"></span> Servers
+                    </h4>
+                    <p class="text-muted para mb-0">
+                      total number of servers Kehay is in
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stat Column 3 -->
+              <div class="col-md-6 col-12">
+                <div class="features p-1 pt-4 pb-4">
+                  <i
+                    class="mdi mdi-code-greater-than icon text-center rounded-pill text-primary mr-3 mt-2 float-left"
+                  ></i>
+                  <div class="content d-block overflow-hidden">
+                    <h4 class="title">
+                      <span id="stats-commands"></span> Commands
+                    </h4>
+                    <p class="text-muted para mb-0">
+                      total number of commands executed over Kehay's lifetime
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stat Column 4 -->
+              <!--             <div class="col-md-6 col-12">
+              <div class="features p-1 pt-4 pb-4">
+                <i class="mdi mdi-chart-line icon text-center rounded-pill text-primary mr-3 mt-2 float-left"></i>
+                <div class="content d-block overflow-hidden">
+                  <h4 class="title"><span id="stats-ads"></span> Ads</h4>
+                  <p class="text-muted para mb-0">total number of user ads registered to HaileyBot</p>
+                </div>
+              </div>
+            </div> -->
+
+              <!-- Stat Column 5 -->
+              <!--             <div class="col-md-6 col-12">
+              <div class="features p-1 pt-4 pb-4">
+                <i class="mdi mdi-message icon text-center rounded-pill text-primary mr-3 mt-2 float-left"></i>
+                <div class="content d-block overflow-hidden">
+                  <h4 class="title"><span id="stats-global-channels"></span> Global Channels</h4>
+                  <p class="text-muted para mb-0">total number of channels connected to the global chat</p>
+                </div>
+              </div>
+            </div> -->
+
+              <!-- Stat Column 6 -->
+              <div class="col-md-6 col-12">
+                <div class="features p-1 pt-4 pb-4">
+                  <i
+                    class="mdi mdi-gavel icon text-center rounded-pill text-primary mr-3 mt-2 float-left"
+                  ></i>
+                  <div class="content d-block overflow-hidden">
+                    <h4 class="title">
+                      <span id="stats-global-bans"></span> Global Bans
+                    </h4>
+                    <p class="text-muted para mb-0">
+                      total number of users on the global ban list
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section pt-0 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <!-- Title and Description -->
+            <div class="section-title mb-60">
+              <h2 style="font-size:250%" id="features">Features</h2>
+              <!--             <h4 class="main-title mb-4">Features</h4> -->
+              <p class="text-muted para-desc mb-0 mx-auto">
+                Add <span class="text-primary font-weight-bold">Kehay</span> to
+                your server to get all the following features and more!
+              </p>
+
+              <!-- Pill Selectors -->
+              <div class="row mt-4 justify-content-center">
+                <div class="col-lg-8 col-md-12 text-center">
+                  <ul
+                    class="nav nav-pills nav-justified flex-column flex-sm-row"
+                    id="pills-tab"
+                    role="tablist"
+                  >
+                    <!-- Pill 1 Button -->
+                    <li class="nav-item mt-4 pt-2">
+                      <a
+                        class="nav-link rounded active"
+                        id="pills-ads-tab"
+                        data-toggle="pill"
+                        href="#pills-ads"
+                        role="tab"
+                        aria-controls="pills-ads"
+                        aria-selected="false"
+                      >
+                        <div class="text-center pt-1 pb-1">
+                          <h4 class="title font-weight-normal mb-0">Fun</h4>
+                        </div>
+                      </a>
+                    </li>
+
+                    <!-- Pill 2 Button -->
+                    <li class="nav-item mt-4 pt-2">
+                      <a
+                        class="nav-link rounded"
+                        id="pills-global-tab"
+                        data-toggle="pill"
+                        href="#pills-global"
+                        role="tab"
+                        aria-controls="pills-global"
+                        aria-selected="false"
+                      >
+                        <div class="text-center pt-1 pb-1">
+                          <h4 class="title font-weight-normal mb-0">Utility</h4>
+                        </div>
+                      </a>
+                    </li>
+
+                    <!-- Pill 3 Button -->
+                    <li class="nav-item mt-4 pt-2">
+                      <a
+                        class="nav-link rounded"
+                        id="pills-mod-tab"
+                        data-toggle="pill"
+                        href="#pills-mod"
+                        role="tab"
+                        aria-controls="pills-mod"
+                        aria-selected="false"
+                      >
+                        <div class="text-center pt-1 pb-1">
+                          <h4 class="title font-weight-normal mb-0">
+                            Moderation
+                          </h4>
+                        </div>
+                      </a>
+                    </li>
+
+                    <!-- Pill 4 Button -->
+                    <li class="nav-item mt-4 pt-2">
+                      <a
+                        class="nav-link rounded"
+                        id="pills-misc-tab"
+                        data-toggle="pill"
+                        href="#pills-misc"
+                        role="tab"
+                        aria-controls="pills-misc"
+                        aria-selected="false"
+                      >
+                        <div class="text-center pt-1 pb-1">
+                          <h4 class="title font-weight-normal mb-0">
+                            Miscellaneous
+                          </h4>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="tab-content" id="pills-tabContent">
+              <!-- Pill 1 -->
+              <div
+                class="tab-pane fade show active"
+                id="pills-ads"
+                role="tabpanel"
+                aria-labelledby="pills-ads-tab"
+              >
+                <div class="row align-items-center">
+                  <div class="col-md-6 hide-mobile">
+                    <img
+                      src="images/pattern.png"
+                      class="img-fluid mx-auto d-block"
+                      alt=""
+                    />
+                  </div>
+
+                  <!-- Pill 1 Content -->
+                  <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                      <h4 class="title mb-4">
+                        <i class="mdi mdi-chevron-double-right text-primary"></i
+                        >Have Fun
+                      </h4>
+                      <p class="text-muted">
+                        This feature is for fun with your friends
+                      </p>
+                      <ul class="list-unstyled feature-list text-muted">
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Playing Games Kehay
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >having a good time
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >relieve stress
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pill 2 -->
+              <div
+                class="tab-pane fade"
+                id="pills-global"
+                role="tabpanel"
+                aria-labelledby="pills-global-tab"
+              >
+                <div class="row align-items-center">
+                  <div class="col-md-6 hide-mobile">
+                    <img
+                      src="images/pattern.png"
+                      class="img-fluid mx-auto d-block"
+                      alt=""
+                    />
+                  </div>
+
+                  <!-- Pill 2 Content -->
+                  <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                      <h4 class="title mb-4">
+                        <i class="mdi mdi-chevron-double-right text-primary"></i
+                        >Utility for Viewing Server and Player Info
+                      </h4>
+                      <p class="text-muted">
+                        This Feature To Notify Various Info Server Or Player
+                        Info.
+                      </p>
+                      <ul class="list-unstyled feature-list text-muted">
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Check Server and Player Avatar
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Check Social Media Player
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pill 3 -->
+              <div
+                class="tab-pane fade"
+                id="pills-mod"
+                role="tabpanel"
+                aria-labelledby="pills-mod-tab"
+              >
+                <div class="row align-items-center">
+                  <div class="col-md-6 hide-mobile">
+                    <img
+                      src="images/pattern.png"
+                      class="img-fluid mx-auto d-block"
+                      alt=""
+                    />
+                  </div>
+
+                  <!-- Pill 3 Content -->
+                  <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                      <h4 class="title mb-4">
+                        <i class="mdi mdi-chevron-double-right text-primary"></i
+                        >To Keep Your Server Safe
+                      </h4>
+                      <p class="text-muted">
+                        Kehay Will Maintain Your Server Well To Avoid Damage And
+                        Others.
+                      </p>
+                      <ul class="list-unstyled feature-list text-muted">
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Autonick
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Kick, ban, or warn members with a simple command
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Automatically delete messages containing your set
+                          words/phrases
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Set up welcome/goodbye messages for when members join
+                          or leave
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Set up a live stat tracker for your server
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Automatically log all server activity to a designated
+                          channel
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Bulk delete large amounts of messages
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Per Server Prefix
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pill 4 -->
+              <div
+                class="tab-pane fade"
+                id="pills-misc"
+                role="tabpanel"
+                aria-labelledby="pills-misc-tab"
+              >
+                <div class="row align-items-center">
+                  <div class="col-md-6 hide-mobile">
+                    <img
+                      src="images/pattern.png"
+                      class="img-fluid mx-auto d-block"
+                      alt=""
+                    />
+                  </div>
+
+                  <!-- Pill 4 -->
+                  <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title">
+                      <h4 class="title mb-4">
+                        <i class="mdi mdi-chevron-double-right text-primary"></i
+                        >Find Various Commands on Kehay
+                      </h4>
+                      <p class="text-muted">
+                        Kehay has many miscellaneous commands that can vastly
+                        improve the user experience.
+                      </p>
+                      <ul class="list-unstyled feature-list text-muted">
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Get the answer to any objective, fact-based question
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Search Google without needing to leave Discord
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >Create a poll for users to vote on
+                        </li>
+                        <li>
+                          <i
+                            class="mdi mdi-checkbox-marked-circle text-success h4 mr-2"
+                          ></i
+                          >View detailed information about the specified user,
+                          server, or emote
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background Image -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="home-shape-bottom">
+            <img
+              src="images/shapes/round-white.png"
+              alt=""
+              class="img-fluid mx-auto d-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br />
+
+    <!-- Reviews -->
+    <section class="section pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div id="customer-testi" class="owl-carousel owl-theme">
+              <!-- Review 1 -->
+              <!--             <div class="customer-testi p-3 text-center">
+              <img src="https://cdn.discordapp.com/attachments/498511734366011403/632530428112142346/image0.jpg" height="80" class="rounded-pill mx-auto shadow" alt="">
+              <p class="text-muted mt-4">"The most versatile bot I've seen yet, packed with many features"</p>
+              <h6 class="text-primary">- folding.exe#0001</h6>
+            </div> -->
+
+              <!-- Review 2 -->
+              <!--             <div class="customer-testi p-3 text-center">
+              <img src="https://cdn.discordapp.com/attachments/522040473376915456/630049275186905088/b42bbdc728f5d82622078b3b09d2f32c.png" height="80" class="rounded-pill mx-auto shadow" alt="">
+              <p class="text-muted mt-4">"I used HaileyBot to replace 4 other bots that all didnt work as well as HaileyBot! I have been looking for a bot to connect multiple servers privately for more than 6 months, HaileyBot does it with ease! The creator is active, and super helpful! Thank you HaileyBot! I look forward to removing future bots from my servers thanks to your future updates. Favorite Discord bot to date!"</p>
+              <h6 class="text-primary">- Phantom51180#0206</h6>
+            </div> -->
+
+              <!-- Review 3 -->
+              <div class="customer-testi p-3 text-center">
+                <img
+                  src="https://cdn.discordapp.com/avatars/516614616290426882/94eacbbf86dab073e457f18660dbaf19.png?size=2048"
+                  height="80"
+                  class="rounded-pill mx-auto shadow"
+                  alt=""
+                />
+                <p class="text-muted mt-4">
+                  "Hello everyone! My name is Shiru, from the Administrator of
+                  the Kehay Bot. I'm here to oversee the official bot kehay
+                  server"
+                </p>
+                <h6 class="text-primary">- Shiru ツ#2396</h6>
+              </div>
+
+              <!-- Review 4 -->
+              <div class="customer-testi p-3 text-center">
+                <img
+                  src="https://cdn.discordapp.com/avatars/297130271864520705/a64df62dfbc641fad413dbc78fd1ddc4.png?size=2048"
+                  height="80"
+                  class="rounded-pill mx-auto shadow"
+                  alt=""
+                />
+                <p class="text-muted mt-4">
+                  "Hello everyone, my name is Faiq, from the partner developer
+                  bot kebay, I am here to work in the database if there is
+                  something difficult, please contact me at discord 👍!"
+                </p>
+                <h6 class="text-primary">- Faiq, くん#8455</h6>
+              </div>
+
+              <!-- Review 5 -->
+              <div class="customer-testi p-3 text-center">
+                <img
+                  src="https://cdn.discordapp.com/avatars/597802151061749800/ef71f59e184c7a98eaf108b14576a102.png?size=2048"
+                  height="80"
+                  class="rounded-pill mx-auto shadow"
+                  alt=""
+                />
+                <p class="text-muted mt-4">
+                  "Hello I am a partner of the kehay developer, I have tried to
+                  design the kehay as good as possible, maybe in the future I
+                  will enhance the design of the kehay !."
+                </p>
+                <h6 class="text-primary">- Margaretta_Olivia#2561</h6>
+              </div>
+
+              <!-- Review 6 -->
+              <div class="customer-testi p-3 text-center">
+                <img
+                  src="https://cdn.discordapp.com/avatars/486502585587466240/3a7644a1d269ef34239bdbf9f34493ec.png?size=2048"
+                  height="80"
+                  class="rounded-pill mx-auto shadow"
+                  alt=""
+                />
+                <p class="text-muted mt-4">
+                  "Hello, My name is Irwan375, I the maker of bot kehay before I
+                  gave the name to the day I was very confused I wanted to give
+                  a name and I thought of the words kekai in the anime Naru and
+                  I took that word to the point where I added it, right Hay so
+                  the name is kehay"
+                </p>
+                <h6 class="text-primary">- Irwan375#0057</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background Image -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="home-shape-bottom">
+            <img
+              src="images/shapes/round-dark.png"
+              alt=""
+              class="img-fluid mx-auto d-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer-bar">
+      <div class="container text-center">
+        <div class="row align-items-top">
+          <!-- Column 1 -->
+          <div class="col-sm-3 text-sm-left">
+            <h1 class="text-light mb-0">
+              Ke<span class="text-primary">hay</span>
+            </h1>
+            <div class="small">© 2020 Irwan375#0057</div>
+            <div class="pt-4 pb-4 text-light">
+              <div>
+                <i class="mdi mdi-email"></i>
+                <a
+                  href="mailto:muhammad.irwan399@gmail.com"
+                  target="_blank"
+                  class="text-foot"
+                  >Email</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="col-sm-5"></div>
+
+          <!-- Column 3 -->
+        <!--  <div class="col-sm-4 text-sm-left pr-4">
+            <h5 class="title mb-0 text-center pb-1">Leave a Review</h5>
+            <form
+              action="https://send.pageclip.co/hwoikyF60ELMiAxZ2d4ZpqJOqACkJnlP/reviews"
+              class="pageclip-form pr-2 pl-2"
+              method="post"
+            >
+              <div class="form-group mb-0">
+                <input
+                  name="tag"
+                  type="text"
+                  class="form-control"
+                  placeholder="Username#0000"
+                  required
+                />
+                <textarea
+                  name="review"
+                  rows="4"
+                  class="form-control mt-1 mb-1"
+                  required
+                  placeholder="Write a review here"
+                ></textarea>
+                <button
+                  type="submit"
+                  name="send"
+                  class="btn btn-block btn-primary pageclip-form__submit"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://kehay.glitch.me/js/jquery.min.js"></script>
+    <script src="https://kehay.glitch.me/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kehay.glitch.me/js/jquery.easing.min.js"></script>
+    <script src="https://kehay.glitch.me/js/scrollspy.min.js"></script>
+    <script src="https://kehay.glitch.me/js/owl.carousel.min.js "></script>
+    <script src="https://kehay.glitch.me/js/owl.init.js "></script>
+    <script src="https://kehay.glitch.me/js/app.js"></script>
+    <script src="https://kehay.glitch.me/js/script.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  </body>
+
+  <script type="text/javascript">
+    var oReq = new XMLHttpRequest();
+    oReq.addEventListener("load", function() {
+      let r;
+      widget = JSON.parse(this.response);
+      widget.channels.forEach(c => {
+        document.getElementById(
+          `stats-${c.name
+            .toLowerCase()
+            .split(":")[0]
+            .replace(/ /g, "-")}`
+        ).innerHTML = c.name.split(":")[1];
+      });
+    });
+    oReq.open(
+      "GET",
+      `https://discordapp.com/api/guilds/670416633994674187/widget.json`
+    );
+    oReq.setRequestHeader("origin", "");
+    oReq.send();
+
+    let width = "30%";
+    if (window.mobilecheck()) width = "80%";
+    document.getElementById("review").style.width = width;
+  </script>
+</html>

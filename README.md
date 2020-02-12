@@ -1,30 +1,11 @@
 # Meong website source code
 
 This is my project to make my website
-[about me](https://github.com/Humblenees).
+[Github](https://github.com/Humblenees).
 
-## Your Project
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website.
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-## Made by [Glitch](https://glitch.com/)
-
-\ ゜ o ゜)ノ
+## My Project
+Ini adalah source code dah itu aja ;u
+## Contact:
+### [WhatsApp](https://eenthlh.xyz/redirect/whatsapp)
+### [Email](https://eenthlh.xyz/redirect/email)
+### [Instagram](https://instagram.com/eenthlh)
