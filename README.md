@@ -1,11 +1,8 @@
-# Meong website source code
+# eenthlh.xyz_old
 
-This is my project to make my website
-[Github](https://github.com/Humblenees).
+**This is a repository of my old [website](https://meong.glitch.me)**
 
-## My Project
-Ini adalah source code dah itu aja ;u
-## Contact:
-### [WhatsApp](https://eenthlh.xyz/redirect/whatsapp)
-### [Email](https://eenthlh.xyz/redirect/email)
-### [Instagram](https://instagram.com/eenthlh)
+<hr>
+Repository under MIT License (see the LICENSE file to see the license terms)
+<br><br>
+Made with ♥️ by Fauzannnnh.
